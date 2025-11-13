@@ -1,0 +1,43 @@
+name: Update Cleaned Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v3
+        with:
+          ref: feature/data-update
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run script
+        env:
+          POST_URL: ${{ vars.POST_URL }}
+          HEADERS: ${{ secrets.HEADERS }}
+          POST_PAYLOAD: ${{ vars.POST_PAYLOAD }}
+        run: python process_events.py
+
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"          
+          git checkout -B feature/data-update # Creates the branch if it doesn't exist, or resets the existing one
+          git add cleaned_data.json
+          git add events.ics
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push --force-with-lease origin feature/data-update
