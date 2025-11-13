@@ -5,12 +5,18 @@ BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
 DTSTART:20251210T180000Z
 SUMMARY:Beat Cop - Game Key Drops
-UID:cef47b34-ffc7-4b5a-9365-474e7a606397@cef4.org
+UID:4702a394-522d-4029-8276-8fc0c2e3758d@4702.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
 DTSTART:20251126T180000Z
 SUMMARY:Children of Morta - Game Key Drops
-UID:ca82070f-5e91-405e-a353-e2b3765201d8@ca82.org
+UID:c115c8ce-ce36-4783-a33e-7fb9f697706f@c115.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
+DTSTART:20251112T180000Z
+SUMMARY:Frostpunk - Game Key Drops
+UID:f3b35ff1-142c-4a14-8680-5f01d2a00603@f3b3.org
 END:VEVENT
 END:VCALENDAR
