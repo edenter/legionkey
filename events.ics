@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
-DTSTART:20251112T180000Z
-SUMMARY:Frostpunk - Game Key Drops
-UID:bc25415e-332c-476a-bd77-d1cc788eeeed@bc25.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
 DTSTART:20251126T180000Z
 SUMMARY:Children of Morta - Game Key Drops
-UID:1963e2d3-4172-4c0c-8afe-7ce92004da9d@1963.org
+UID:4b2b6adc-e2e1-419b-ade4-6df84faaf8b8@4b2b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
 DTSTART:20251210T180000Z
 SUMMARY:Beat Cop - Game Key Drops
-UID:882c09e0-f640-4ba2-a477-4b80afa50e43@882c.org
+UID:f927d92b-1cfe-4a2e-bf57-ec96344d91ec@f927.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
+DTSTART:20251112T180000Z
+SUMMARY:Frostpunk - Game Key Drops
+UID:34a8818e-7d5b-47bb-bf49-986e2a2118a7@34a8.org
 END:VEVENT
 END:VCALENDAR
