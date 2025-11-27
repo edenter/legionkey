@@ -5,18 +5,24 @@ BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
 DTSTART:20251112T180000Z
 SUMMARY:Frostpunk - Game Key Drops
-UID:9ee92279-6077-4408-91d8-3db242319b0d@9ee9.org
+UID:f366d94b-de29-464c-a084-831f98d663c9@f366.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
-DTSTART:20251210T180000Z
-SUMMARY:Beat Cop - Game Key Drops
-UID:70a82701-e94f-40c6-9c39-417e0702a90d@70a8.org
+DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-moonlighter---game-key-drops-gZexTR24QZHvtkZ
+DTSTART:20251217T180000Z
+SUMMARY:Moonlighter - Game Key Drops
+UID:171ba0f0-9527-4251-bb22-ba79909a02d4@171b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
 DTSTART:20251126T180000Z
 SUMMARY:Children of Morta - Game Key Drops
-UID:3989bbbc-d857-4495-a6e0-b3d20c3d0710@3989.org
+UID:5daf9998-7b7a-461c-ba7c-392f4683f1d5@5daf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
+DTSTART:20251210T180000Z
+SUMMARY:Beat Cop - Game Key Drops
+UID:a379860d-c297-49eb-96a9-227bd2b13fcc@a379.org
 END:VEVENT
 END:VCALENDAR
