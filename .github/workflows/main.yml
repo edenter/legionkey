@@ -8,18 +8,20 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
       - name: Check out feature branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: feature/data-update
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          cache: 'pip' # caching pip dependencies
 
       - name: Install dependencies
         run: pip install -r requirements.txt
