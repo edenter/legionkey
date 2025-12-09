@@ -2,27 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
-DTSTART:20251126T180000Z
-SUMMARY:Children of Morta - Game Key Drops
-UID:a0ec59c8-17a2-4ac4-aa01-0c0c29863cd8@a0ec.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
-DTSTART:20251112T180000Z
-SUMMARY:Frostpunk - Game Key Drops
-UID:fc9ab42d-bb1e-4bb9-9049-b1b4018f9bc0@fc9a.org
+DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-moonlighter---game-key-drops-gZexTR24QZHvtkZ
+DTSTART:20251217T180000Z
+SUMMARY:Moonlighter - Game Key Drops
+UID:2cd9ab41-9f3d-41ee-a8c3-cb9d610161ec@2cd9.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
 DTSTART:20251210T180000Z
 SUMMARY:Beat Cop - Game Key Drops
-UID:845abe9c-78e5-47c5-8996-ad853ef3669f@845a.org
+UID:25f29117-cbe5-45b9-afe5-44d55121c737@25f2.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-moonlighter---game-key-drops-gZexTR24QZHvtkZ
-DTSTART:20251217T180000Z
-SUMMARY:Moonlighter - Game Key Drops
-UID:bf4fa283-e582-48b3-9e62-fd89bbd65163@bf4f.org
+DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
+DTSTART:20251112T180000Z
+SUMMARY:Frostpunk - Game Key Drops
+UID:e92f096d-b27a-4326-a0b0-73d737fb15ef@e92f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
+DTSTART:20251126T180000Z
+SUMMARY:Children of Morta - Game Key Drops
+UID:70eb2701-c0c8-43c5-abfb-7f17bd6a1eb2@70eb.org
 END:VEVENT
 END:VCALENDAR
