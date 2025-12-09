@@ -120,6 +120,7 @@ def create_ics_file(events, filename):
     for event_data in events:
         try:
             event = Event()
+            event.uid = event_data['id']
             event.name = event_data['summary']
             
             event.begin = event_data['begin']
