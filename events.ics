@@ -2,27 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-moonlighter---game-key-drops-gZexTR24QZHvtkZ
-DTSTART:20251217T180000Z
-SUMMARY:Moonlighter - Game Key Drops
-UID:6b3b5811-5d81-47e4-84f1-455eb7090a55@6b3b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
-DTSTART:20251210T180000Z
-SUMMARY:Beat Cop - Game Key Drops
-UID:d5a24424-4326-45fb-87eb-c8b37c4b0fa9@d5a2.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Children of Morta!\nChildren of Morta is a story-driven action RPG game about an extraordinary family of heroes. Lead the Bergsons\, with all their flaws and virtues\, against the ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/children-of-morta---game-key-drops-252LPzXZbbwy4QT
 DTSTART:20251126T180000Z
 SUMMARY:Children of Morta - Game Key Drops
-UID:f7963da3-4147-4c97-afab-df3d0a80a0b0@f796.org
+UID:a0ec59c8-17a2-4ac4-aa01-0c0c29863cd8@a0ec.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Frostpunk!\nFrostpunk\, the newest title from the creators of This War of Mine\, is a society survival game where heat means life and every decision comes at a price. In an entirely...\n\nGiveaway Link: https://gaming.lenovo.com/frost-punk-key-drops
 DTSTART:20251112T180000Z
 SUMMARY:Frostpunk - Game Key Drops
-UID:051d5c28-9c8f-471a-aa1f-934b6baee18b@051d.org
+UID:fc9ab42d-bb1e-4bb9-9049-b1b4018f9bc0@fc9a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Beat Cop!\nA retro\, pixel art style adventure in New York\, inspired by ’80s cop shows. You are Jack Kelly and you’ve been framed for murder. Now as a regular beat cop you have to ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-beat-cop---game-key-drops-cQwC9zVntqPwFWn
+DTSTART:20251210T180000Z
+SUMMARY:Beat Cop - Game Key Drops
+UID:845abe9c-78e5-47c5-8996-ad853ef3669f@845a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...\n\nMore info: https://gaming.lenovo.com/game-key-drops/post/coming-soon-moonlighter---game-key-drops-gZexTR24QZHvtkZ
+DTSTART:20251217T180000Z
+SUMMARY:Moonlighter - Game Key Drops
+UID:bf4fa283-e582-48b3-9e62-fd89bbd65163@bf4f.org
 END:VEVENT
 END:VCALENDAR
