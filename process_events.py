@@ -108,8 +108,7 @@ def clean_data(raw_data):
             'url': post.get('url', ''),
             'begin': None,
             'end': None,
-            'location': '',
-            'giveaway_link': None
+            'location': ''
         }
 
         if 'fields' in post and post['fields']:
@@ -133,8 +132,6 @@ def clean_data(raw_data):
                     cleaned_event['end'] = field_value
                 elif field_key == 'location':
                     cleaned_event['location'] = field_value if isinstance(field_value, str) else ''
-                elif field_key == 'giveaway_link':
-                    cleaned_event['giveaway_link'] = field_value
 
         # Only include events that have a start time
         if cleaned_event['begin']:
@@ -162,8 +159,6 @@ def create_ics_file(events, filename):
             description = event_data['description']
             if event_data['url']:
                 description += f"\n\nMore info: {event_data['url']}"
-            if event_data['giveaway_link']:
-                description += f"\n\nGiveaway Link: {event_data['giveaway_link']}"
             event.description = description
             
             event.location = event_data['location']
