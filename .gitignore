@@ -13,3 +13,7 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Generated files
+cleaned_data.json
+events.ics
