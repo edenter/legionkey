@@ -3,6 +3,7 @@ import json
 from ics import Calendar, Event
 from datetime import datetime
 import os
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,8 +11,39 @@ load_dotenv()
 # --- Configuration ---
 POST_URL = os.getenv("POST_URL")
 
+def fetch_access_token():
+    """
+    Fetches the website HTML and extracts the accessToken.
+    """
+    url = "https://gaming.lenovo.com/game-key-drops/"
+    print(f"Fetching access token from {url}...")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        content = response.text
+        
+        # Search for the token pattern: "accessToken":"..."
+        match = re.search(r'"accessToken":"([^"]+)"', content)
+        if match:
+            token = match.group(1)
+            print("Successfully extracted access token.")
+            return token
+        else:
+            print("Could not find 'accessToken' in the page source.")
+            return None
+    except Exception as e:
+        print(f"Error fetching access token: {e}")
+        return None
+
 # Headers for the POST request
 HEADERS = json.loads(os.getenv("HEADERS"))
+
+# Fetch and inject the dynamic token
+token = fetch_access_token()
+if token:
+    HEADERS["authorization"] = f"Bearer {token}"
+else:
+    print("Warning: Using existing authorization header (if any) because dynamic fetch failed.")
 
 # GraphQL payload for the POST request
 POST_PAYLOAD = json.loads(os.getenv("POST_PAYLOAD"))
