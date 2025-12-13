@@ -107,8 +107,7 @@ def clean_data(raw_data):
             'description': post.get('description', '').strip(),
             'url': post.get('url', ''),
             'begin': None,
-            'end': None,
-            'location': ''
+            'end': None
         }
 
         if 'fields' in post and post['fields']:
@@ -130,8 +129,6 @@ def clean_data(raw_data):
                     cleaned_event['begin'] = field_value
                 elif field_key == 'end_date':
                     cleaned_event['end'] = field_value
-                elif field_key == 'location':
-                    cleaned_event['location'] = field_value if isinstance(field_value, str) else ''
 
         # Only include events that have a start time
         if cleaned_event['begin']:
@@ -156,12 +153,10 @@ def create_ics_file(events, filename):
             if event_data['end']:
                 event.end = event_data['end']
             
-            description = event_data['description']
-            if event_data['url']:
-                description += f"\n\nMore info: {event_data['url']}"
-            event.description = description
+            event.description = event_data['description']
             
-            event.location = event_data['location']
+            if event_data['url']:
+                event.url = event_data['url']
             
             cal.events.add(event)
         except Exception as e:
