@@ -38,8 +38,8 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"          
           git checkout -B feature/data-update # Creates the branch if it doesn't exist, or resets the existing one
-          git add cleaned_data.json
-          git add events.ics
+          git add -f cleaned_data.json
+          git add -f events.ics
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push --force-with-lease origin feature/data-update
