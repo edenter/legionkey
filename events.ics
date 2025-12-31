@@ -2,6 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Grab a free game key voucher for This War of Mine!\nIn This War Of Mine you do not play as an elite soldier\, rather a group of civilians trying to survive in a besieged city\; struggling with lack of ...
+DTSTART:20260107T180000Z
+SUMMARY:This War of Mine - Game Key Drops
+UID:oqBDV8xA0J5F39M
+URL:https://gaming.lenovo.com/game-key-drops/post/coming-soon-this-war-of-mine---game-key-drops-oqBDV8xA0J5F39M
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Grab a key voucher for Moonlighter!\nMoonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will\, an adventurous shopkeeper that ...
 DTSTART:20251217T180000Z
 SUMMARY:Moonlighter - Game Key Drops
